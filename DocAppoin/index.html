@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Doctor Appointment Booking</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">🟦<strong>MediCare</strong></div>
+    <nav>
+      <a href="C:\Users\Sahil_09\Desktop\GOG\Web developer Internship\DocAppoin\index.html">Home</a>
+      <a href="C:\Users\Sahil_09\Desktop\GOG\Web developer Internship\DocAppoin\page-2.html">About</a>
+      <a href="C:\Users\Sahil_09\Desktop\GOG\Web developer Internship\DocAppoin\page-6.html">Doctors</a>
+      <a href="C:\Users\Sahil_09\Desktop\GOG\Web developer Internship\DocAppoin\page-3.html">Services</a>
+      <a href="C:\Users\Sahil_09\Desktop\GOG\Web developer Internship\DocAppoin\page-2.html">Contact</a>
+    </nav>
+    <button class="book-btn" id="booknow">Book Appointment</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Your Health,<br />Our Priority</h1>
+      <div class="search-bar">
+        <input type="text" placeholder="Search by doctor, specialty, or hospital" />
+        <input type="date" />
+        <input type="time" />
+        <button class = "search-btn" id="search-btn">Search ➔</button>
+      </div>
+    </section>
+
+    <section class="specialties">
+      <h2>Popular Specialties</h2>
+      <div class="cards">
+        <div class="card">
+          <div class="icon">👩‍⚕️</div>
+          <p>Dermatologist</p>
+          <button  class="book-now-btn" id="book-now-btn1">Book Now</button>
+        </div>
+        <div class="card">
+          <div class="icon">🦷</div>
+          <p>Dentist</p>
+          <button class="book-now-btn" id="book-now-btn2">Book Now</button>
+        </div>
+        <div class="card">
+          <div class="icon">❤️</div>
+          <p>Cardiologist</p>
+          <button class="book-now-btn" id="book-now-btn3">Book Now</button>
+        </div>
+        <div class="card">
+          <div class="icon">🧸</div>
+          <p>Pediatrician</p>
+          <button class="book-now-btn" id="book-now-btn4">Book Now</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script>
+    const booknow = document.getElementById("booknow");
+    booknow.addEventListener("click", () => {
+      if(booknow){
+        booknow.addEventListener("click", function (e) {
+          window.location.href = "./page-3.html";
+        });
+      }
+    });
+    const searchbtn = document.getElementById("search-btn");
+    searchbtn.addEventListener("click", () => {
+      if(searchbtn){
+        searchbtn.addEventListener("click", function (e) {
+          window.location.href = "./page-3.html";
+        });
+      }
+    });
+    const booknowbtn1 = document.getElementById("book-now-btn1");
+    booknowbtn1.addEventListener("click", () => {
+      if(booknowbtn1){
+        booknowbtn1.addEventListener("click", function (e) {
+          window.location.href = "./page-3.html";
+        });
+      }
+    });
+    const booknowbtn2 = document.getElementById("book-now-btn2");
+    booknowbtn2.addEventListener("click", () => {
+      if(booknowbtn2){
+        booknowbtn2.addEventListener("click", function (e) {
+          window.location.href = "./page-3.html";
+        });
+      }
+    });
+    const booknowbtn3 = document.getElementById("book-now-btn3");
+    booknowbtn3.addEventListener("click", () => {
+      if(booknowbtn3){
+        booknowbtn3.addEventListener("click", function (e) {
+          window.location.href = "./page-3.html";
+        });
+      }
+    });
+    const booknowbtn4 = document.getElementById("book-now-btn4");
+    booknowbtn4.addEventListener("click", () => {
+      if(booknowbtn4){
+        booknowbtn4.addEventListener("click", function (e) {
+          window.location.href = "./page-3.html";
+        });
+      }
+    });
+  </script> 
+</body>
+</html>
